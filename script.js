@@ -305,26 +305,30 @@ var $years =3;
 //arays
 
 //Initialize new array
-var names = ['John', 'Mark', 'Jane'];
-var years = new Array(1990, 1969, 1948);
+// var names = ['John', 'Mark', 'Jane'];
+// var years = new Array(1990, 1969, 1948);
 
-console.log(names);
+// console.log(names);
 
-// mutate array data
-names[1] = 'ben';
-names[3] = 'joe';
-names[names.length] = 'fred';
-console.log(names)
+// // mutate array data
+// names[1] = 'ben';
+// names[3] = 'joe';
+// names[names.length] = 'fred';
+// console.log(names)
 
-//diferent data types
-var john = ['John','Smith',1890,'teacher',false,'designer'];
+// //diferent data types
+// var john = ['John','Smith',1890,'teacher',false,'designer'];
 
-john.push('blue');
-john.unshift('Mr.')
-john.pop();
-console.log(john);
+// john.push('blue');
+// john.unshift('Mr.')
+// john.pop();
+// console.log(john);
 
-var isDesigner = john.indexOf('designer') === -1 ? 'john is not a designer': 'john is a designer';
-console.log(isDesigner);
+// var isDesigner = john.indexOf('designer') === -1 ? 'john is not a designer': 'john is a designer';
+// console.log(isDesigner);
 
-
+var johnBills = [124,48,268]
+function johnBillsTips (tips,bills){
+    console.log(johnBills[0]*0.15)
+}
+johnBillsTips();
